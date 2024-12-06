@@ -1,0 +1,144 @@
+
+body {
+    background-color: #f0f8ff; 
+    color: #333333; 
+}
+
+header {
+    background-color: #006586; 
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    text-align: justify;
+    
+}
+
+
+/* diseño navbar */
+nav {
+    background-color: #00bfff; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Efecto hover */
+nav ul li a:hover {
+    background-color: #ffff99; 
+    color: #333333; 
+}
+
+
+#foto .img-profile {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    margin-top: 20px;
+}
+
+/* Biografía y secciones */
+section {
+    padding: 40px 0;
+}
+
+/*Diseño para el formulario */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #00bfff;
+    color: white;
+}
+
+/* Pie de página */
+footer {
+    background-color: #00bfff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 30px; 
+}
+
+
+#biografia {
+    background-color: #f0f8ff; 
+}
+
+#especialidades {
+    background-color: #e0f7fa; 
+}
+
+#proyectos {
+    background-color: #b3e5fc;
+}
+
+#contacto {
+    background-color: #b2ebf2; 
+}
+
+/* Estilo para las cabeceras de cada sección */
+h2 {
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
