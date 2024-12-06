@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Ivancillo</title>
+    <!-- Vinculación con el archivo CSS -->
+    <link rel="stylesheet" href="diseno.css">
+    <!-- Vinculación con Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>| Portafolio de Ivancillo | 🤙</h1>
+        <p>Futuro Ingeniero en Sistemas. Conoce un poco sobre mi...</p>
+    </header>
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00bfff;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio ✅</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biografia">Biografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#especialidades">Especialidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Foto Profesional -->
+    <section id="foto">
+        <div class="container text-center mt-5">
+            <img src="./imagenes/rino.jpg" alt="Foto Iván" class="img-profile">
+        </div>
+    </section>
+
+    <!-- Biografía -->
+    <section id="biografia" class="container mt-5">
+        <h2>Biografía</h2>
+        <p>Soy estudiante de Ingeniería en Sistemas, con una interés por la tecnología. Mi experiencia en programación es considerable aunque sigo aprendiendo de ello. He logrado desarrollar proyectos universitarios que me han permitido aplicar conocimientos en diferentes áreas.
+
+            Entre los proyectos más destacados se incluyen el desarrollo de tiendas online, la creación de un sistema de parking para autos, y la implementación de circuitos electrónicos con sensores. Además, he participado en investigaciones científicas y actividades experimentales utilizando software de redes, lo que me ha permitido adquirir habilidades en áreas como redes de computadoras y sistemas embebidos.</p>
+    </section>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="container mt-5">
+        <h2>Especialidades</h2>
+        <ul>
+            <li>Trabajo práctico en diseño de software</li>
+            <li>Manteniento de equipos de computo de software y hardware</li>
+            <li>Planificacion de requerimentos para un centro de computacion</li>
+            <li>Implementacion de multimedia para presentaciones gráficas</li>
+        </ul>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="container mt-5">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./imagenes/proyecto1.jpeg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto de Sensor de luz con timer555</h5>
+                        <p class="card-text">El siguiente proyecto se basa en implementar un poteciómetro para controlar la intensidad de la luz por medio del microcontrolador timer555, ya que este hace variar el tiempo en el que el led enciende y apaga.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./imagenes/proyecto2.jpeg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de medición de humedad y temperatura para una planta de frijol</h5>
+                        <p class="card-text">En este proyecto se implementó la tarjeta de programación ESP32 para conectarlo con sensores de humedad y temperatura que van fijos al subsuelo de nuestra planta de frijol y así poder medir la temperatura para llevar un control sobre la humedad. Esta humedad se ve graficada en un software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./imagenes/proyecto3.jpeg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sitio Web para control de turnos en un estacionamiento</h5>
+                        <p class="card-text">En este proyecto se planificó las entradas y salidas de datos para controlar qué prodecimientos lleva el sistema para detectar que un vehículo ha ingresado, ha pagado su ticket y se le ha impreso. Se emitió cada estado del usiario y se almacenó en una base de datos donde se le agregó una id principal. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container mt-5">
+        <h2>Mi contacto</h2>
+
+        <!-- Redes sociales -->
+        <p>Mis redes sociales 😉</p>
+        <ul>
+            <li><a href="https://www.instagram.com/ivan" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/ivan" target="_blank">LinkedIn</a></li>
+        </ul>
+
+        <!-- Datos de contacto -->
+        <p>Teléfono/WhatsApp: +52 22 65 73 45 62</p>
+        <p>Correo: ivancilloingenierillo@gmail.com</p>
+
+        <!-- Formulario de contacto -->
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Ivancillo. Todos los proyectos cubren derechos de autor.</p>
+        <p><a href="#inicio" style="color:white;">Quejas y sugerencias</a> | <a href="#contacto" style="color:white;">Enlaces rápidos</a></p>
+        <a href=""><i class="bi bi-facebook"></i></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
